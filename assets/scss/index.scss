@@ -90,7 +90,7 @@
     font-size: 18px;
     font-family: "UTM Avo";
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
     text-align: right;
     margin: 0 auto;
     display: block;
@@ -495,7 +495,7 @@
 
 //Page-3
 .page-3 {
-    background-image: url("../images/bg-3.jpg");
+    background-image: url("../images/bg-1.png");
     padding-top: 10vh;
     background-position: center top -47px;
 
@@ -515,7 +515,7 @@
 
 //Page-4
 .page-4 {
-    background-image: url("../images/bg-3.jpg");
+    background-image: url("../images/bg-1.png");
     padding-top: 8vh;
     background-position: center top -47px;
 
@@ -621,16 +621,16 @@
         text-align: right;
         position: relative;
         margin-bottom: 60px;
-        &::after {
-            content: "";
-            width: 20px;
-            height: 20px;
-            background-color: #0d6aba;
-            border-radius: 50%;
-            position: absolute;
-            right: -35px;
-            top: 9px;
-        }
+        // &::after {
+        //     content: "";
+        //     width: 20px;
+        //     height: 20px;
+        //     background-color: #0d6aba;
+        //     border-radius: 50%;
+        //     position: absolute;
+        //     right: -35px;
+        //     top: 9px;
+        // }
     }
     .img-card {
         margin-bottom: 10vh;
